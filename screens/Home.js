@@ -17,6 +17,7 @@ export default function Home() {
 
     useEffect(() => {
         scale.value = withRepeat(withTiming(1), -1, true);
+        console.log("Hello")
     }, [])
     return (
         <View style={s.container}>

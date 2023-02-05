@@ -2,7 +2,7 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import React from "react";
 import { View, Text, StyleSheet, ScrollView } from "react-native";
 import Home from "../screens/Home";
-import About from "../screens/About";
+import PanGesture from "../screens/PanGesture";
 
 export default function Tab() {
   const Tab = createBottomTabNavigator();
@@ -13,7 +13,7 @@ export default function Tab() {
       }}
     >
       <Tab.Screen name="Home" component={Home} />
-      <Tab.Screen name="About" component={About} />
+      <Tab.Screen name="Pan Gesture" component={PanGesture} />
     </Tab.Navigator>
   );
 }

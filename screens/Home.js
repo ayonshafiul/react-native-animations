@@ -7,7 +7,7 @@ export default function Home() {
 
     const calculateRotation = (value) => {
         'worklet';
-        return `${value * Math.PI}rad`
+        return `${value * 2 * Math.PI}rad`
     }
     const scalingView = useAnimatedStyle(() => {
         return {

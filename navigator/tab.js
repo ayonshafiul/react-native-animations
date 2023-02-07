@@ -1,6 +1,6 @@
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import React from "react";
-import { View, Text, StyleSheet, ScrollView } from "react-native";
+import DoubleTap from "../screens/DoubleTap";
 import Home from "../screens/Home";
 import Interpolate from "../screens/Interpolate";
 import InterpolateColor from "../screens/InterpolateColor";
@@ -18,8 +18,9 @@ export default function Tab() {
       <Tab.Screen name="Pan Gesture" component={PanGesture} />
       <Tab.Screen name="Interpolate" component={Interpolate} />
       <Tab.Screen name="Interpolate Color" component={InterpolateColor} />
+      <Tab.Screen name="Double Tap" component={DoubleTap} />
     </Tab.Navigator>
   );
 }
 
-const s = StyleSheet.create({});
+

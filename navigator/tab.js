@@ -6,6 +6,7 @@ import Home from "../screens/Home";
 import Interpolate from "../screens/Interpolate";
 import InterpolateColor from "../screens/InterpolateColor";
 import PanGesture from "../screens/PanGesture";
+import ScrollView from "../screens/ScrollView";
 
 export default function Tab() {
   const Tab = createBottomTabNavigator();
@@ -21,6 +22,7 @@ export default function Tab() {
       <Drawer.Screen name="Interpolate" component={Interpolate} />
       <Drawer.Screen name="Interpolate Color" component={InterpolateColor} />
       <Drawer.Screen name="Double Tap" component={DoubleTap} />
+      <Drawer.Screen name="Scroll View" component={ScrollView} />
     </Drawer.Navigator>
   );
 }

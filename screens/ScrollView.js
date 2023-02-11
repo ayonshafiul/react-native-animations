@@ -4,7 +4,7 @@ import React from 'react'
 export default function ScrollView() {
     return (
         <View>
-            <Text>ScrollView Demo</Text>
+            <Text>ScrollView Demo Project</Text>
         </View>
     )
 }
